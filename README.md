@@ -42,3 +42,10 @@ UE5_Plugin
 | しゃがむ | Ctrl |
 | マシン召喚 | Z |  　  
 | マシン搭乗 | E | 
+
+---
+
+# サードパーティ ライセンス
+
+以下のマーケットプレイスのNiagaraエフェクトを使用  
+https://www.unrealengine.com/marketplace/ja/product/fighter-su33-east
