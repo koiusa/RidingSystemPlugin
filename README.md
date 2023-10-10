@@ -41,3 +41,4 @@ UE5_Plugin
 | スプリント | Left Shift |
 | しゃがむ | Ctrl |
 | マシン召喚 | Z |  　  
+| マシン搭乗 | E | 
