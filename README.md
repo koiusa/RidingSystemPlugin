@@ -9,7 +9,8 @@ UE5_Plugin
 使用手順
 
 1. Unreal Engine 5.2.x　プロジェクトを作成  
-  GAMES>Blank
+  GAMES>ThirdPerson
+    ※Character,LevelPrototypingを参照している為  
 
 2. プロジェクトへ、本Pluginsディレクトリをコピー  
   RidingSystemPlugin/Plugins  
@@ -22,11 +23,6 @@ UE5_Plugin
 4. プロジェクトのContentへ、以下のディレクトリをコピー  
   /Plugins/RidingSystem/Content/RidingCharacter\Effects\GameplayCue  
   　※Pluginディレクトリから直接参照されないようなので、、、GamePalyCueを参照の為  
-
-5. 依存コンテンツを追加
- Content Drawer＞Add＞Add Feature or Content Pack  
-   ThirdPersonを追加  
- 　 ※Character,LevelPrototypingを参照している為
 
 　　Contentディレクトリ必須構成
 ```
