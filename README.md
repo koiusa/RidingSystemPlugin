@@ -11,12 +11,12 @@ UE5_Plugin
 1. Unreal Engine 5.2.x　プロジェクトを作成  
   GAMES>Blank
 
-2. プロジェクトの設定にGamePlayTagTableListを追加  
-  Edit>ProjectSettings>GamePlayTags
-   GamePlayTagTableListに「DT_RidingSystemGamePlayTags」を追加
+2. プロジェクトへ、本Pluginsディレクトリをコピー  
+  RidingSystemPlugin/Plugins  
  
-3. プロジェクトのConfigへ、以下のファイルをコピー  
-  /Plugins/RidingSystem/Config/DefaultGameplayTags.ini  
+3. プロジェクトの設定にGamePlayTagTableListを追加  
+  Edit>ProjectSettings>GamePlayTags
+   GamePlayTagTableListに「DT_RidingSystemGamePlayTags」を追加   
   　※GamePalyTag参照の為  
 
 4. プロジェクトのContentへ、以下のディレクトリをコピー  
