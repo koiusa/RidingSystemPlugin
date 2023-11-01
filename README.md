@@ -1,4 +1,9 @@
 # RidingSystemPlugin
+
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/koiusa/RidingSystemPlugin)](https://github.com/koiusa/RidingSystemPlugin/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/koiusa/RidingSystemPlugin)](https://github.com/koiusa/RidingSystemPlugin/issues)
+[![GitHub license](https://img.shields.io/github/license/koiusa/RidingSystemPlugin)](https://github.com/koiusa/RidingSystemPlugin/blob/main/LICENSE)
+
 UE5_Plugin
 
 使用手順
