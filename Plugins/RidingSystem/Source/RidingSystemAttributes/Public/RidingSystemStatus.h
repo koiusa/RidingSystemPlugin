@@ -7,13 +7,13 @@
 #include "AttributeSet.h"
 #include "AbilitySystemComponent.h"
 #include "AbilitySystemGlobals.h"
-#include "BasicAttributeSetMacros.h"
-#include "MachineStatus.generated.h"
+#include "RidingSystemAttributeSetMacros.h"
+#include "RidingSystemStatus.generated.h"
 /**
  * 
  */
 UCLASS()
-class UMachineStatus : public UAttributeSet
+class URidingSystemStatus : public UAttributeSet
 {
 	GENERATED_BODY()
 public:
@@ -23,27 +23,27 @@ public:
 
 	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_Health")
 	FGameplayAttributeData Health{ 100.000000f };
-	BASIC_ATTRIBUTE_ACCESSORS(UMachineStatus, Health);
+	BASIC_ATTRIBUTE_ACCESSORS(URidingSystemStatus, Health);
 	UFUNCTION()
 	virtual void OnRep_Health(const FGameplayAttributeData& OldValue);
 
 	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_MaxHealth")
 	FGameplayAttributeData MaxHealth{ 100.000000f };
-	BASIC_ATTRIBUTE_ACCESSORS(UMachineStatus, MaxHealth);
+	BASIC_ATTRIBUTE_ACCESSORS(URidingSystemStatus, MaxHealth);
 	UFUNCTION()
 	virtual void OnRep_MaxHealth(const FGameplayAttributeData& OldValue);
 
-	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_Energy")
-	FGameplayAttributeData Energy{ 100.000000f };
-	BASIC_ATTRIBUTE_ACCESSORS(UMachineStatus, Energy);
+	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_Stamina")
+	FGameplayAttributeData Stamina{ 100.000000f };
+	BASIC_ATTRIBUTE_ACCESSORS(URidingSystemStatus, Stamina);
 	UFUNCTION()
-	virtual void OnRep_Energy(const FGameplayAttributeData& OldValue);
+	virtual void OnRep_Stamina(const FGameplayAttributeData& OldValue);
 
-	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_MaxEnergy")
-	FGameplayAttributeData MaxEnergy{ 100.000000f };
-	BASIC_ATTRIBUTE_ACCESSORS(UMachineStatus, MaxEnergy);
+	UPROPERTY(Category = "GPAAttributes", EditAnywhere, BlueprintReadWrite, ReplicatedUsing="OnRep_MaxStamina")
+	FGameplayAttributeData MaxStamina{ 100.000000f };
+	BASIC_ATTRIBUTE_ACCESSORS(URidingSystemStatus, MaxStamina);
 	UFUNCTION()
-	virtual void OnRep_MaxEnergy(const FGameplayAttributeData& OldValue);
+	virtual void OnRep_MaxStamina(const FGameplayAttributeData& OldValue);
 
 private:
 	UAbilitySystemComponent* mTargetComponent{ nullptr };

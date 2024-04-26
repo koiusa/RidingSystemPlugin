@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class BasicCharacterAttributes : ModuleRules
+public class RidingSystemAttributes : ModuleRules
 {
-	public BasicCharacterAttributes(ReadOnlyTargetRules Target) : base(Target)
+	public RidingSystemAttributes(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 		

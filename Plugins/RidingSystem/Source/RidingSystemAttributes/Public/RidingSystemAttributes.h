@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Modules/ModuleManager.h"
 
-class FBasicCharacterAttributesModule : public IModuleInterface
+class FRidingSystemAttributesModule : public IModuleInterface
 {
 public:
 

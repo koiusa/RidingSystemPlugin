@@ -1,15 +1,15 @@
 // Copyright Epic Games, Inc. All Rights Reserved.
 
-#include "BasicCharacterAttributes.h"
+#include "RidingSystemAttributes.h"
 
-#define LOCTEXT_NAMESPACE "FBasicCharacterAttributesModule"
+#define LOCTEXT_NAMESPACE "FRidingSystemAttributesModule"
 
-void FBasicCharacterAttributesModule::StartupModule()
+void FRidingSystemAttributesModule::StartupModule()
 {
 	// This code will execute after your module is loaded into memory; the exact timing is specified in the .uplugin file per-module
 }
 
-void FBasicCharacterAttributesModule::ShutdownModule()
+void FRidingSystemAttributesModule::ShutdownModule()
 {
 	// This function may be called during shutdown to clean up your module.  For modules that support dynamic reloading,
 	// we call this function before unloading the module.
@@ -17,4 +17,4 @@ void FBasicCharacterAttributesModule::ShutdownModule()
 
 #undef LOCTEXT_NAMESPACE
 	
-IMPLEMENT_MODULE(FBasicCharacterAttributesModule, BasicCharacterAttributes)
+IMPLEMENT_MODULE(FRidingSystemAttributesModule, RidingSystemAttributes)
