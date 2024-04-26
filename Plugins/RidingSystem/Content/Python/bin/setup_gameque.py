@@ -12,7 +12,7 @@ def get_scriptpath():
 
 def duplicate():
     # 対象のアセットを取得
-    sources = "/RidingSystem/RidingCharacter/Effects/GameplayCue/";
+    sources = "/RidingSystem/Effects/GameplayCue/";
     contents = "/Game/";
     print(unreal.EditorAssetLibrary.list_assets(sources));
     print(unreal.EditorAssetLibrary.list_assets(contents));
@@ -32,7 +32,7 @@ def duplicate():
 # 二個目以降、絶対パス参照になってエラーになるのででTODO
 def duplicate2():
     # 対象のアセットを取得
-    sources = "/RidingSystem/RidingCharacter/Effects/GameplayCue/";
+    sources = "/RidingSystem/Effects/GameplayCue/";
     contents = "/Game/RidingSystem/GameplayCue/";
     print(unreal.EditorAssetLibrary.list_assets(sources));
     print(unreal.EditorAssetLibrary.list_assets(contents));
